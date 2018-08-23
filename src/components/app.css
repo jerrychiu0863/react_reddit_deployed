@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.reddit-header {
+  color: rgba(255, 69, 0);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.reddit-list {
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.reddit-listitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.reddit-listitem:last-child {
+  border-bottom: none;
+}
+
+.reddit-count {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 5%;
+  margin-right: -20px;
+}
+
+.reddit-count-num {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ccc;
+}
+
+.reddit-vote-btn {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+.reddit-vote-btn .fas {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ccc;
+}
+
+.reddit-vote-btn .fas:hover {
+  color: #666;
+}
+
+.reddit-image img {
+  width: 70px;
+  height: 70px;
+}
+
+.reddit-content {
+  width: 600px;
+}
+
+.reddit-content div {
+    margin-bottom: 5px;
+}
+
+.reddit-content-title-main {
+  color: rgba(185, 108, 88);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.reddit-content-title-main:hover {
+  color: darkred;
+}
+
+.reddit-content-title-sub {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.reddit-content-info,
+.reddit-content-time {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.reddit-content-author {
+  color: rgba(97, 105, 111);
+}
+
+.reddit-label {
+  display: inline-flex;
+}
+
+.reddit-label p {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.reddit-label p:first-child {
+  color: rgba(185, 108, 88);
+}
